@@ -66,4 +66,29 @@ body {
 }
 
 @media (width >= 500px) {
+    .app-card {
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+    }
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 60%
+    }
+    .btn-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 40%;
+    }
+    .decrement-btn {
+        height: 60px;
+    }
+    .increment-btn {
+        height: 60px;
+    }
 }

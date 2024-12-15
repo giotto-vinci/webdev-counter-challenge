@@ -1,5 +1,12 @@
 1. Why do you use "using strict" at the top of your JS files?
+"use strict", is a directive used in js files to help catch errors, improve security, and increases code quality.
+
 2. What does line 3 mean?
+Line 3 declares count as a variable equal to 0.
+
 3. What is happening on lines 5-8 and why?
+Lines 5-8 are declared constants, meaning the values of the variables cannot be reasigned.  So, the count, increment, reset, and decrement buttons are set.
+
 4. If you implemented the functionality of the buttons,
    why do you think I wrote the JS code the way I did?
+To make the code easily accessible to copy and paste throughout the file, maybe.
