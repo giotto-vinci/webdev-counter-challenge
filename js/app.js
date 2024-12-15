@@ -1,4 +1,4 @@
-"using strict";
+"use strict";
 
 let count = 0;
 
@@ -31,31 +31,35 @@ function renderUpdatedCount() {
 
 incrementBtn.addEventListener("click", function () {
     // Write code below this line
+<<<<<<< HEAD
     incrementCount();
 
+=======
+>>>>>>> a1efbb555501f8800398146e5991477dd8ac2317
 
     // STOP HERE
-
-
     renderUpdatedCount();
 });
 
 resetBtn.addEventListener("click", function () {
     // Write code below this line
+<<<<<<< HEAD
     resetCount();
 
+=======
+    
+>>>>>>> a1efbb555501f8800398146e5991477dd8ac2317
     // STOP HERE
-    
-    
     renderUpdatedCount();
 });
 
 decrementBtn.addEventListener("click", function () {
     // Write code below this line
+<<<<<<< HEAD
     decrementCount();
+=======
+>>>>>>> a1efbb555501f8800398146e5991477dd8ac2317
 
     // STOP HERE
-
-
     renderUpdatedCount();
 });
