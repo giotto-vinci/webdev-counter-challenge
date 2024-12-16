@@ -7,59 +7,45 @@ const incrementBtn = document.querySelector(".increment-btn");
 const resetBtn = document.querySelector(".reset-btn");
 const decrementBtn = document.querySelector(".decrement-btn");
 
-
 function incrementCount() {
-    // Write the relevant code in this block
-    count = count + 1;
+  // Write the relevant code in this block
+  count = count + 1;
 }
-
 
 function decrementCount() {
-    // Write the relevant code in this block
-    count = count - 1;
+  // Write the relevant code in this block
+  count = count - 1;
 }
 
-
 function resetCount() {
-    // Write the relevant code in this block
-    count = 0
+  // Write the relevant code in this block
+  count = 0;
 }
 
 function renderUpdatedCount() {
-    countElement.innerText = count;
+  countElement.innerText = count;
 }
 
 incrementBtn.addEventListener("click", function () {
-    // Write code below this line
-<<<<<<< HEAD
-    incrementCount();
+  // Write code below this line
+  incrementCount();
 
-=======
->>>>>>> a1efbb555501f8800398146e5991477dd8ac2317
-
-    // STOP HERE
-    renderUpdatedCount();
+  // STOP HERE
+  renderUpdatedCount();
 });
 
 resetBtn.addEventListener("click", function () {
-    // Write code below this line
-<<<<<<< HEAD
-    resetCount();
+  // Write code below this line
+  resetCount();
 
-=======
-    
->>>>>>> a1efbb555501f8800398146e5991477dd8ac2317
-    // STOP HERE
-    renderUpdatedCount();
+  // STOP HERE
+  renderUpdatedCount();
 });
 
 decrementBtn.addEventListener("click", function () {
-    // Write code below this line
-<<<<<<< HEAD
-    decrementCount();
-=======
->>>>>>> a1efbb555501f8800398146e5991477dd8ac2317
+  // Write code below this line
+  decrementCount();
 
-    // STOP HERE
-    renderUpdatedCount();
+  // STOP HERE
+  renderUpdatedCount();
 });
